@@ -1,0 +1,194 @@
+		body{
+			margin: 0;
+			padding: 0;
+			font-family: verdana, arial, sans-serif; 
+		}
+		#menuBar{
+			height: 38px;
+			width: 100%;	
+			min-width: 1100px;
+			/*max-width: 950px;*/
+			background-color: #7B0000; 
+			color: white;
+		}
+
+
+		#lightBar{
+			height: 115px;
+			width: 100%;
+			min-width: 1100px;
+			/*max-width: 950px;*/
+			background-color: #990000;
+			color: white;
+		}
+
+		#page{
+			width: 100%;
+			min-width: 1100px;
+			max-width: 1100px;
+			/*background-color: grey;*/
+		}
+
+		.fixWidth{
+			width: 90%;
+			margin: 0 auto;
+		}
+
+		#bbcLogo{
+			float: left;
+			padding: 2px 10px 0px 0px;
+			border-right: 1px solid #990000;
+		}
+		#logIn{
+			float: left;
+			font-size: 0.8em;
+			padding: 10px 50px 12px 10px;
+			border-right: 1px solid #990000;
+		}
+
+
+		#listItems ul{
+			margin: 0;
+			font-size: 0.8em;	
+			list-style: none;
+		}
+		#listItems li{
+			float: left;
+			padding: 10px 1% 12px 1%;
+			border-right: 1px solid #990000;
+		}
+
+		#searchBox{
+			float: left;	
+			border: none;
+			font-size: 1em;
+			padding: 6px 0 0 1%;
+		}
+		#searchBox input{
+			border: none;
+			background-image: url("images/search.png"); 
+			font-size: .8em;
+			background-repeat: no-repeat;
+			background-position: right center;
+			background-size: 20px;
+		}
+
+		#header p{
+			float: left;
+			margin: 0;
+			padding-top: 8px;
+			font-size: 3em;
+		}
+
+		.clear{
+			clear: both;
+		}
+		#rss{
+			float: left;
+			padding-top: 40px;
+			padding-left: 500px;
+		}
+
+		#rss a{
+			color: white;
+			font-size: .7em;
+			text-decoration: none;
+		}
+
+		#pageSect ul{
+			font-size: 0.7em;	
+			margin-top: 36px;
+			height: 13px;
+		}
+		#pageSect li{
+			float: left;
+			list-style: none;
+			padding: 0 5px 0 5px;
+			border-right: 1px solid #990000;
+			/*background-color: none;*/
+			background-color: #3E0C0D;
+		}
+
+		.selected{
+			background-color: #EDEDED !important;
+			color: #505050;
+		}
+
+		#content p{
+			color: #505050;
+			font-size: 0.8em;
+		}
+
+		#content h2{
+			color: #4A7194;
+		}
+
+
+		.date{
+			font-weight: bold;
+		}
+
+		#content img{
+			float: left;
+		}
+
+		.newsColoum{
+			position: relative;
+			top: -15px;
+			left: 10px;
+			width: 250px;
+			float: left;
+			font-size: .9em;
+			text-align: justify;
+		}
+
+		.newsColoum a{
+			color: #4A7194;
+			text-decoration: none;
+			font-size: .9em;
+		}
+
+		.newsColoum a:hover{
+			text-decoration: underline;
+		}
+
+		.playB{
+			line-height: 1.5em;
+			padding-left: 20px;
+			background-image: url("images/play.png");
+			background-repeat: no-repeat;
+			background-size: 18px;
+		}
+
+		.spkr{
+			line-height: 1.5em;
+			padding-left: 20px;
+			background-image: url("images/spkr.png");
+			background-repeat: no-repeat;
+			background-size: 18px;
+		}
+
+		#watchBox{
+			width: 350px;
+			/*height: 300px;*/
+			float: right;
+			background-color: #EEEEEE;
+		}
+
+		#watch{
+			float: left;
+			font-size: 1.5em !important;
+			color: #505050 !important;
+			margin-top: 5px;
+			margin-left: 8px;
+		}
+
+		#tgl{
+			float: right !important;
+			/*margin-left: 290px;*/
+			margin-top: 15px;
+		}
+
+		#wimg{
+			/*float: center !important;*/
+		}
